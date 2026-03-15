@@ -73,6 +73,6 @@ This simulator helps students understand:
 
 ## Author
 
-Student: Rathini Rajendran  
+Student: Rathini R. - 2022/E/115  
 University: University of Jaffna  
 Course: EC 6110 Operating Systems
