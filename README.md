@@ -35,16 +35,6 @@ Each algorithm processes the same reference string and frame capacity.
 - CSS
 - JavaScript
 
-## Project Structure
-page-replacement-simulator
-│
-├── index.html
-├── styles.css
-├── app.js
-└── README.md
-
-
----
 
 ## How to Run the Project
 
@@ -60,8 +50,6 @@ page-replacement-simulator
 Example:
 
 5. Click **Run** to simulate the algorithms.
-
----
 
 ## Output
 
