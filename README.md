@@ -5,7 +5,8 @@ This project is a web-based simulator that demonstrates how different **Page Rep
 
 The simulator takes a **reference string** and **number of frames** as input, runs multiple algorithms, and compares their performance based on **page faults** and **page hits**.
 
-This project was developed for the **Operating Systems (EC 6110) Assignment**.
+This project was developed for the **Operating Systems Assignment**.
+Rathini Rajendran - 2022/E/115 - 2022e115@eng.jfn.ac.lk
 
 ## Implemented Algorithms
 
