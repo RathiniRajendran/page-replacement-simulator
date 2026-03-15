@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 6px;
+    text-align: center;
+}
+
+input, select, button {
+    padding: 5px;
+}
+
+.hit {
+    color: green;
+    font-weight: bold;
+}
+
+.fault {
+    color: red;
+    font-weight: bold;
+}
+
+.best {
+    color: green;
+    font-weight: bold;
+}

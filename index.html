@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Replacement Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Page Replacement Simulator</h2>
+
+    <label for="frames">Number of Frames:</label>
+    <input id="frames" type="number" min="1" >
+
+    <br><br>
+
+    <label for="refs">Reference String:</label>
+    <input id="refs" type="text" >
+
+    <br><br>
+
+    <button id="run">Run</button>
+
+    <h3 id="bestText">Best Algorithm: -</h3>
+
+    <h3>Summary</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Algorithm</th>
+                <th>Faults</th>
+                <th>Hits</th>
+                <th>Fault Rate</th>
+            </tr>
+        </thead>
+        <tbody id="summaryBody"></tbody>
+    </table>
+
+    <h3>Step By Step</h3>
+
+    <label for="algoSelect">Select Algorithm:</label>
+    <select id="algoSelect">
+        <option value="FIFO">FIFO</option>
+        <option value="LRU">LRU</option>
+        <option value="LFU">LFU</option>
+        <option value="MFU">MFU</option>
+    </select>
+
+    <h4 id="selectedInfo">Selected Algorithm: -</h4>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Step</th>
+                <th>Page</th>
+                <th>Result</th>
+                <th>Replaced</th>
+                <th>Frames</th>
+            </tr>
+        </thead>
+        <tbody id="stepsBody"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
